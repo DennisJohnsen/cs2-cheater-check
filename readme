@@ -1,0 +1,9 @@
+http://googleusercontent.com/immersive_entry_chip/2
+
+To use these files, follow these steps:
+
+1.  **Save the files:** Save `server.js`, `package.json`, and `Dockerfile` in the same directory.
+2.  **Build the Docker image:** In that directory, open your terminal and run the command: `docker build -t cs2-cheater-check-server .`
+3.  **Run the container:** Once the build is complete, run the container with: `docker run -p 3000:3000 cs2-cheater-check-server`
+4.  **Install the CFG file:** Place the `gamestate_integration_nodejs.cfg` file in your CS:GO configuration folder. This is typically located at `C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg`.
+5.  **Start CS:GO:** Launch the game and join a match. The GSI updates will now be sent to your server, and you will see the player IDs logged in your terminal.

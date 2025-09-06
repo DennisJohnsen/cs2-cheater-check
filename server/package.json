@@ -1,0 +1,13 @@
+{
+    "name": "cs2-cheater-check-server",
+    "version": "1.0.0",
+    "description": "A simple Node.js server for CS:GO Game State Integration",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "express": "^4.19.2"
+    }
+  }
+  
